@@ -17,7 +17,7 @@ It keeps the original notebook while adding a scriptable ASCII map pipeline with
 - CLI output for quick map previews
 - Unit tests for renderer and CLI behavior
 
-## Usage
+## Quick Start
 
 ```bash
 python3 cli.py --data data/sample_points.csv
