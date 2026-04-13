@@ -1,0 +1,1 @@
+"""Map drawing helper package."""

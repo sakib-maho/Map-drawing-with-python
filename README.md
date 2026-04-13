@@ -1,13 +1,27 @@
-# Map-drawing-with-python
+# Map Drawing with Python
 
-## Description
-Map-drawing-with-python - A project by sakib-maho
+This repository is upgraded into a reproducible map-rendering mini-project.
+It keeps the original notebook while adding a scriptable ASCII map pipeline with tests.
+
+## Features
+
+- Load coordinate points from CSV
+- Render points on an ASCII grid
+- CLI output for quick map previews
+- Unit tests for renderer and CLI behavior
+
+## Usage
+
+```bash
+python3 cli.py --data data/sample_points.csv
+```
+
+## Tests
+
+```bash
+python3 -m unittest discover -s tests -p "test_*.py"
+```
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Author
-sakib-maho
-
-## Copyright
-Copyright (c) 2025 sakib-maho
+MIT License. See `LICENSE`.
